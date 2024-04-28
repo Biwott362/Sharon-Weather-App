@@ -3,7 +3,8 @@ body{
     background:linear-gradient(130deg, #f9f7fe, #5daeff);
     font-family: "Merriweather", serif;
     font-weight: 300;
-    font-style:normal
+    font-style:normal;
+
 }
 a{
     color:#885df1;
