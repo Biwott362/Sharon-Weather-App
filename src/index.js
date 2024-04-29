@@ -17,12 +17,15 @@ function refreshWeather(response){
     windSpeedElement.innerHTML = `${response.data.wind.speed}km/hr`;
     
     
-    if(response.data.condition.description == "scattered clouds"){
+    if(response.data.condition.description =="scattered clouds"){
      weatherIcon.src = "src/cloudy.svg";
      }
-    else if(response.data.condition.description == "broken clouds"){
+    else if(response.data.condition.description =="broken clouds"){
     weatherIcon.src = "src/cloudy.svg";
         }
+     else if(response.data.condition.description =="overcast clouds"){
+    weatherIcon.src = "src/cloudy.svg";
+        }    
     else if(response.data.condition.description == "few clouds"){
       weatherIcon.src = "src/cloudy.svg";
             }   
@@ -146,6 +149,9 @@ function refreshWeather(response){
                  weatherIconSrc = "src/snow.svg";
                  break;
              case "thunderstorm":
+                 weatherIconSrc = "src/thunderstorms-rain.svg";
+                 break;
+          case "very heavy rain":
                  weatherIconSrc = "src/thunderstorms-rain.svg";
                  break;
               case "heavy intensity rain":
