@@ -4,3 +4,4 @@
   It features a range of uniquely designed weather icons.
   Technologies learned: **HTML, CSS, JavaScript and API**  
 ## Demo 
+![Alt text]()
