@@ -4,4 +4,4 @@
   It features a range of uniquely designed weather icons.
   Technologies learned: **HTML, CSS, JavaScript and API**  
 ## Demo 
-![Alt text]()
+![Alt text](https://raw.githubusercontent.com/Biwott362/Sharon-Weather-App/refs/heads/main/Screenshot%202025-04-25%20133615.png)
